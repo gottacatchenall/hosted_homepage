@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/hosted_homepage/static/css/main.288f98e7.chunk.css",
-    "main.js": "/hosted_homepage/static/js/main.f9b7e39f.chunk.js",
-    "main.js.map": "/hosted_homepage/static/js/main.f9b7e39f.chunk.js.map",
-    "runtime-main.js": "/hosted_homepage/static/js/runtime-main.c3214458.js",
-    "runtime-main.js.map": "/hosted_homepage/static/js/runtime-main.c3214458.js.map",
-    "static/js/2.0ca3f54b.chunk.js": "/hosted_homepage/static/js/2.0ca3f54b.chunk.js",
-    "static/js/2.0ca3f54b.chunk.js.map": "/hosted_homepage/static/js/2.0ca3f54b.chunk.js.map",
-    "index.html": "/hosted_homepage/index.html",
-    "precache-manifest.19a475ffd6c08ecbc91f4e9ba7c4a382.js": "/hosted_homepage/precache-manifest.19a475ffd6c08ecbc91f4e9ba7c4a382.js",
-    "service-worker.js": "/hosted_homepage/service-worker.js",
-    "static/css/main.288f98e7.chunk.css.map": "/hosted_homepage/static/css/main.288f98e7.chunk.css.map",
-    "static/js/2.0ca3f54b.chunk.js.LICENSE.txt": "/hosted_homepage/static/js/2.0ca3f54b.chunk.js.LICENSE.txt",
-    "static/media/Research.md": "/hosted_homepage/static/media/Research.0584dc71.md",
-    "static/media/about.md": "/hosted_homepage/static/media/about.a3cbc237.md"
+    "main.css": "/static/css/main.288f98e7.chunk.css",
+    "main.js": "/static/js/main.9601dcf2.chunk.js",
+    "main.js.map": "/static/js/main.9601dcf2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b2fe0743.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b2fe0743.js.map",
+    "static/js/2.0ca3f54b.chunk.js": "/static/js/2.0ca3f54b.chunk.js",
+    "static/js/2.0ca3f54b.chunk.js.map": "/static/js/2.0ca3f54b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b6f65384862fe70abada8ae2fded2712.js": "/precache-manifest.b6f65384862fe70abada8ae2fded2712.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.288f98e7.chunk.css.map": "/static/css/main.288f98e7.chunk.css.map",
+    "static/js/2.0ca3f54b.chunk.js.LICENSE.txt": "/static/js/2.0ca3f54b.chunk.js.LICENSE.txt",
+    "static/media/Research.md": "/static/media/Research.0584dc71.md",
+    "static/media/about.md": "/static/media/about.a3cbc237.md"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3214458.js",
+    "static/js/runtime-main.b2fe0743.js",
     "static/js/2.0ca3f54b.chunk.js",
     "static/css/main.288f98e7.chunk.css",
-    "static/js/main.f9b7e39f.chunk.js"
+    "static/js/main.9601dcf2.chunk.js"
   ]
 }
