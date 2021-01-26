@@ -1,0 +1,24 @@
+{{ define "main" }}
+<main id="content">
+    <h1 class="post-title">{{ .Title }}</h1>
+
+    <section class="container">
+        {{ .Content }}
+        <div class="researchListing">
+            {{ range .Paginator.Pages }}
+            <a href="{{ .URL }}">
+
+            <div class="researchTopic {{.Page.Params.color}}" >
+                <div class="researchTopicTitle"><span>{{.Title}}</span></div>
+                <div class="researchTopicImageContainer">
+                    <img class="header" src="{{.Page.Params.image}}" alt="" />
+                </div>
+
+
+            </div>
+            </a>
+            {{ end }}
+        </div>
+    </section>
+</main>
+{{ end }}

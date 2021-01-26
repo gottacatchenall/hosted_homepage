@@ -1,0 +1,68 @@
+.researchListing{
+    min-width:100%;
+    display: flex-table;
+}
+
+.researchTopic {
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  outline: 5px solid;
+  overflow: hidden;
+}
+
+.researchTopicTitle{
+  height: 50px;
+  word-wrap: break-word;
+  line-height: 1em;
+  margin: 10px 5px 0px 5px;
+}
+
+.researchTopicTitle span {
+  font-size: 1.2em;
+  font-family: $serif;
+}
+
+.researchTopicImageContainer {
+    display: flex;
+    background: $nord-darkest;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.researchTopicImageContainer img {
+  min-width: 100%;
+  min-height: 100%
+}
+
+.lightBlue {
+  outline-color: $nord-med-blue;
+  background-color: $nord-med-blue;
+}
+
+.blue {
+  outline-color:   $nord-dark-blue;
+  background-color:   $nord-dark-blue;
+}
+
+.darkBlue {
+  outline-color: #3c5f8a;
+  background-color: #3c5f8a;
+}
+
+.darkTeal {
+  outline-color: #437d77;
+  background-color: #437d77;
+}
+
+.teal {
+  outline-color: #5b8c8b;
+  background-color: #5b8c8b;
+}
+
+.green {
+  outline-color: #3a6161;
+  background-color: #3a6161;
+}
