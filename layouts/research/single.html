@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h1 class="post-title">{{ .Title }}</h1>
+<main id="content">
+    <section class="container">
+        {{ .Content }}
+        {{ if .Page.Params.papers }}
+
+        <h2>Selected articles</h2>
+
+        {{ range where .Site.Data.papers "id" "in" .Page.Params.papers }}
+            {{ partial "article.html" . }}
+        {{ end }}
+
+        {{ end }}
+    </section>
+</main>
+{{ end }}
