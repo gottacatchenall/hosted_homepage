@@ -60,13 +60,14 @@ html {
 }
 
 body {
-    background-color: $nord-darkest;
+    background-color: #ffffff;
     font-family: $sans-serif;
     margin: 0;
     font-size: 1.1rem;
 }
 
 article {
+    color: $nord-green;
     border: 1px solid #ffffff;
 }
 
@@ -75,7 +76,7 @@ article p {
     a {
         text-decoration: underline;
         text-decoration-skip-ink: auto;
-        color: $gray-dark;
+        color: $nord-dark;
     }
 }
 
@@ -133,14 +134,14 @@ a {
     color: $gray-dark;
 }
 
-a,
-a>svg {
-    color: $nord-grey-light;
+a {
+    text-decoration: none;
+    color: $nord-teal;
     transition: 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 a:visited {
-    color: $nord-grey-light;
+    color: $nord-teal;
 }
 
 .color-link {

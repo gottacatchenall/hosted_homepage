@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class = "article-content">
+<div class = "articleContainer">
         {{ if isset .Site.Params "description" }}
         <div class="description">
             <p>{{ .Site.Params.Description | markdownify }}</p>
@@ -10,12 +10,12 @@
         {{ range (.Paginate $pages).Pages }}
         <article>
             <h2>
-                <a href="{{ .Permalink }}">
+                <a href="{{ .Permalink }}" class="articleLink">
                     {{ .Title }}
                 </a>
             </h2>
-            <div>
-                <p>{{ .Summary }}</p>
+            <div class="articleDescriptionContainer">
+                <p>{{ .Description }}</p>
                 {{ if (and (.Site.Params.showReadMore) (.Truncated)) }}
                 <p><a href="{{ .RelPermalink }}">Read more...</a></p>
                 {{ end }}

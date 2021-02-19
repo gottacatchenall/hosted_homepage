@@ -1,5 +1,5 @@
 ---
-title: bayesian stats
+title: open software for ecological research
 summary:
 image: /topics/bayes.svg
 weight: 4
