@@ -30,7 +30,7 @@ $gray-dark: #5F5F5F;
 $highlight: #FFEC5C;
 
 // FONTS
-$serif: "Bebas Neue","Helvetica Neue",Helvetica,Roboto,FreeSans,serif;
+$serif: "Garamond","Helvetica Neue",Helvetica,Roboto,FreeSans,serif;
 $sans-serif: "Roboto",sans-serif;
 $code: Iosevka,Menlo,Monaco,"Courier New",monospace;
 
@@ -123,44 +123,39 @@ h6 {
 
 
 p {
-    color: #ffffff;
+    color: #222222;
     margin: 0em 0 1em 0;
 }
 
-// LINKS AND TAGS
 a {
-    text-decoration: underline;
-    text-decoration-skip-ink: auto;
-    color: $gray-dark;
-}
-
-a {
-    text-decoration: none;
-    color: $nord-teal;
     transition: 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-a:visited {
-    color: $nord-teal;
+
+.articleLink {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #444444;
+    letter-spacing: -0.02em;
 }
 
 .color-link {
     text-decoration: none;
-    color: $nord-teal;
-    font-family: $serif;
+    color: #ffffff;
+    font-family: $sans-serif;
     margin-right: 1.5em;
-    letter-spacing: 0.08em;
+    letter-spacing: -0.04em;
 }
 
 .color-link:visited {
-    color: $nord-teal;
+    color: #ffffff;
 }
 
 .color-link:hover {
-    color: $nord-teal;
+    color: #ffffff;
 
     .color-arrow {
-        fill: $nord-teal;
+        fill: #ffffff;
     }
 }
 
@@ -263,8 +258,10 @@ table {
 
 // TOP NAV
 nav {
+    //background-color:$nord-darkest;
     padding: 0.25em 1.5em 1em 1.5em;
     max-width: 100%;
+    background-color: $teal-darker;
 }
 
 .site-title {
@@ -272,8 +269,8 @@ nav {
     text-align: center;
     line-height: 1.7em;
     a {
-        font-family: $code;
-        color: $nord-grey-light;
+        font-family: $serif;
+        color: #ffffff;
         font-size: 1.2em;
         text-decoration: none;
     }
@@ -284,25 +281,31 @@ nav {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 0px 0px 0px 25px;
 }
 
 .nav-link {
     margin-bottom: 0.5em;
+    font-weight: 300;
 }
 
 .description {
     font-style: italic;
-    color: $nord-grey-light;
-    font-size: 1.5em;
+    color: $nord-dark;
+    font-size: 1.2em;
+    letter-spacing: -0.02em;
+    margin: 50px 0px;
     text-align: center;
 }
 
 .post-title {
-    font-family: $serif;
+    color: $nord-dark;
+    font-family: $sans-serif;
 }
 
 // CONTENT
 .content-container {
+    color: $nord-dark;
     padding: 0.5em 1.5em 0em 1.5em;
     margin: 0em 1em;
     max-width: 100%;
@@ -328,7 +331,7 @@ nav {
 
     a {
         text-decoration: none;
-        color: $teal;
+        color: $teal-darker;
         font-size: 0.95rem;
     }
 }
@@ -495,12 +498,12 @@ footer {
         padding: 0.3em 0.5em;
         margin: 0.32em 0.1em;
         display: inline-block;
-        height: 1em;
+        height: 0.5em;
         position: relative;
     }
 
     .social-icon>svg:hover {
-        fill: $gray-medium;
+        fill: $teal;
     }
 
     a {

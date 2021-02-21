@@ -1,9 +1,9 @@
 baseURL = "https://gottacatchenall.github.io"
 languageCode = "en-us"
-title = "md catchen"
+title = "mdcatchen"
 #theme = "noteworthy"
 enableRobotsTXT = true
-paginate = 10 # Set the number of posts to show before overflowing to the next page.
+paginate = 5# Set the number of posts to show before overflowing to the next page.
 summaryLength = 10 # Configure how long the post summary should be on the homepage.
 
 # Add your Google Analytics identifier: UA-XXXXXXXX-X

@@ -11,13 +11,13 @@
         overflow: auto;
         height: 100%;
         top: 0;
-        left: 36px;
+        left: 0px;
         width: 240px;
         padding: 0px;
     }
 
     .site-title {
-        margin: 3em 0em 1em 0em;
+        margin: 3em 0em 1em 25px;
         text-align: left;
     }
 
@@ -35,8 +35,7 @@
         text-align: left;
         padding: 1.55em 0 0.5em 0;
         border-bottom: none;
-        margin-bottom: 1em;
-        margin-top: 0em;
+        margin: 20px 0px 0px 0px;
     }
 
     .article-content {
@@ -55,10 +54,7 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        .post-title {
-            font-weight: 500;
-            font-size: 1.5em;
-        }
+
         h1 {
             border-top: none;
             padding-top: 0em;
@@ -69,7 +65,7 @@
     .post-title {
         border-top: none;
         padding-top: 0em;
-        margin-top: 0.75em;
+        margin: 1.5em 0em 0em 0em;
     }
 
     // FOOTER

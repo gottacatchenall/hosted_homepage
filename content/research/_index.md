@@ -1,6 +1,5 @@
 ---
 type: section
-title: "research"
 ---
 
 
@@ -10,4 +9,3 @@ The unifying theme of my research interests is applying computational tools to b
 
 
 More information about there areas my research focuses on can be found below:
-
