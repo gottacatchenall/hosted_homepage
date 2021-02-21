@@ -28,10 +28,10 @@
 
 .researchTopicImageContainer {
     display: flex;
-    background: $nord-darkest;
     justify-content: center;
     align-items: center;
-    overflow: hidden
+    overflow: hidden;
+    background-color: #ffffff;
 }
 
 .researchTopicImageContainer img {
