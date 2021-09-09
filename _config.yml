@@ -1,0 +1,11 @@
+
+title:  michael catchen
+subtitle: data scientist, computational ecologist and biogeographer
+author: michael catchen
+production_url: http://gottacatchenall.github.io/
+
+markdown: kramdown
+
+kramdown:
+  hard_wrap: false
+  input: GFM

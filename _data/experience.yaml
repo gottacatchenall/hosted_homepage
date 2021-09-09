@@ -1,0 +1,31 @@
+---
+- id: ecojulia_os
+  what: Open source contributor
+  where: EcoJulia
+  when: 2020-2021
+  misc:
+- id: ta_cu
+  what: Teaching Assistant 
+  where: University of Colorado Boulder
+  when: 2019-2020
+  misc: 
+- id: melbourne_lab
+  what: Research Assistant
+  where: Melbourne Lab, CU Boulder
+  when: Summer 2018
+  misc:
+- id: jpl3
+  what: Software Engineering Intern
+  where: NASA Jet Propulsion Laboratory
+  when: Summer 2017
+  misc: 
+- id: jpl2
+  what: Systems Engineering Intern
+  where: NASA Jet Propulsion Laboratory
+  when: Summer 2016
+  misc:
+- id: jpl1
+  what: Systems Engineering Intern
+  where: NASA Jet Propulsion Laboratory
+  when: Summer 2015
+  misc:

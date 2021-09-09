@@ -1,0 +1,7 @@
+---
+programming: 
+  fluent: [Julia, Python, R, C++]
+  proficient: [Javascript, BASH, ]
+datascience: 
+  - Deep learning (Feed-forward, CNN, and RNNs in Flux.jl)
+  - Bayesian Statistics (Hierarchical modeling in STAN and Turing.jl)

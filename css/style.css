@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap');
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 15px;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+header{
+    font-size: 1.4em;
+}
+
+.container{
+    position: relative;
+    max-width: 700px;
+    margin: 1em auto;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+school {
+    display: inline-block;
+    min-width: 80%;
+    margin: 5px 0px;
+}
+
+degree{
+    font-weight: 400;
+    display: block;
+}
+
+schoolname{
+    display: block;
+    font-weight: 500;
+}
+
+
+job {
+    display: inline-block;
+    min-width: 80%;
+    margin: 7px 0px;
+}
+
+employer{
+    font-weight: 500;
+    display: block;
+}
+
+jobtitle{
+    font-weight: 400;
+}
+
+when{
+    font-size: 0.8em;
+    text-align: right;
+}
+
+degreedesc{
+    font-size: 0.9em;
+}
+
+jobdesc{
+    font-size: 0.9em;
+}

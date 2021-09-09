@@ -1,0 +1,11 @@
+---
+- id: cu_ma
+  what: Master of Arts, Ecology and Evolutionary Biology
+  where: University of Colorado, Boulder
+  when: 2018-2020
+  misc: Thesis - <i> Phase Transistions in Landscape Connectivity</i>
+- id: cu_ba
+  what: Bachelor of Arts, Ecology and Evolutionary Biology
+  where: University of Colorado, Boulder
+  when: 2015-2020
+  misc: 
