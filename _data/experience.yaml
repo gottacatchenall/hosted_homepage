@@ -3,29 +3,41 @@
   what: Open source contributor
   where: EcoJulia
   when: 2020-2021
-  misc:
+  misc: |
+    Contributed to several projects for <a
+    href="https://github.com/EcoJulia/">EcoJulia</a>. a collection of software
+    packages for doing ecological research in the <a
+    href="https://julialang.org/">Julia programming language</a> - (<a
+    href="https://github.com/EcoJulia/NeutralLandscapes.jl">NeutralLandscapes.jl</a>,
+    <a
+    href="https://github.com/EcoJulia/EcologicalNetworks.jl">EcologicalNetworks.jl</a>,
+    and <a href="">MetacommunityDynamics.jl</a>).
 - id: ta_cu
-  what: Teaching Assistant 
+  what: Teaching Assistant
   where: University of Colorado Boulder
   when: 2019-2020
-  misc: 
+  misc:
 - id: melbourne_lab
   what: Research Assistant
-  where: Melbourne Lab, CU Boulder
+  where: University of Colorado Boulder, Melbourne Lab
   when: Summer 2018
   misc:
 - id: jpl3
   what: Software Engineering Intern
   where: NASA Jet Propulsion Laboratory
   when: Summer 2017
-  misc: 
+  misc: wrote flight software for two <a>Cubesats</a>
+- id: la_cu
+  what: Learning Assistant
+  where: University of Colorado Boulder, Dept. of Applied Math
+  misc: Taught calc 1-3 in workgroups
 - id: jpl2
   what: Systems Engineering Intern
   where: NASA Jet Propulsion Laboratory
   when: Summer 2016
-  misc:
+  misc: finished CMS for uplink software
 - id: jpl1
   what: Systems Engineering Intern
   where: NASA Jet Propulsion Laboratory
   when: Summer 2015
-  misc:
+  misc: started CMS for uplink software

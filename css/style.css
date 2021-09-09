@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap');
+
 html,
 body {
   height: 100%;
@@ -17,6 +18,21 @@ header{
     font-size: 1.4em;
 }
 
+a{
+    color: #4f84a8;
+    text-decoration: none;
+    font-weight:400;
+}
+
+a:hover{
+    color: #4f84a8;
+    font-weight: 500;
+}
+
+a:visited{
+    color: #4f84a8;
+}
+
 .container{
     position: relative;
     max-width: 700px;
@@ -32,6 +48,12 @@ h2 {
     font-weight: 400;
 }
 
+left{
+    display: inline-block;
+    width: 80%;
+}
+
+
 school {
     display: inline-block;
     min-width: 80%;
@@ -40,6 +62,7 @@ school {
 
 degree{
     font-weight: 400;
+    color: #555;
     display: block;
 }
 
@@ -62,17 +85,31 @@ employer{
 
 jobtitle{
     font-weight: 400;
+    display: block;
+    color: #555;
 }
 
 when{
     font-size: 0.8em;
-    text-align: right;
+    vertical-align: top;
+    width: 100%;
+    text-align: left;
+    display: top;
+    color: #888888;
 }
 
 degreedesc{
     font-size: 0.9em;
+    width: 80%;
+    display: block;
+    margin: 0.5em;
+    color: #888;
 }
 
 jobdesc{
     font-size: 0.9em;
+    width: 80%;
+    display: block;
+    margin: 0.5em;
+    color: #888;
 }

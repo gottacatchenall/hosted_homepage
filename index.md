@@ -21,17 +21,23 @@ layout: default
 <ul>
 {% for entry in site.data.experience %}
     <job>
+    <left>
         <employer>{{ entry.where }}</employer>
         <jobtitle>{{ entry.what }}</jobtitle>
         <jobdesc>{{ entry.misc }}</jobdesc>
-    </job>
+    </left>
+
     <when>{{ entry.when }}</when>
+
+
+    </job>
+
 {% endfor %}
 </ul>
 
 # Skills
 
-## Programming 
+## Programming
 <div>
 {% for entry in site.data.skills.programming.fluent %}
  {{ entry }},
@@ -46,7 +52,7 @@ layout: default
 {% endfor %}
 </ul>
 
-## Data science and visualization 
+## Data science and visualization
 <ul>
 {% for entry in site.data.skills.datascience %}
     <li>
