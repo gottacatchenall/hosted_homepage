@@ -1,4 +1,9 @@
 ---
+- id: phd
+  what: PhD, Biology (<i>in progress</i>)
+  where: McGill University
+  when: 2020-present
+  misc: Simulation for building predictive ecological models
 - id: cu_ma
   what: Master of Arts, Ecology and Evolutionary Biology
   where: University of Colorado, Boulder
