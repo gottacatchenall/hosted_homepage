@@ -16,6 +16,38 @@ layout: default
 {% endfor %}
 </ul>
 
+# Publications
+
+{% for publication in site.data.papers %}
+<pubtitle> <a href="http://dx.doi.org/{{publication.DOI}}"> {{ publication.title }} </a> <br/></pubtitle>
+
+<authors>
+{%if publication.author.size < 5 %}
+
+{% for author in publication.author %} {{author.given}} {{author.family}} {% endfor %} {{ publication.DOI }}
+
+{% else %}
+
+{% for author in publication.author%}
+    {%if forloop.index < 5 %}
+        {{author.given}} {{author.family}},
+    {% endif %}
+{% endfor %}
+
+...,
+
+{{publication.author.last.given}} {{publication.author.last.family}}.
+
+
+{% endif %}
+
+</authors>
+
+<publisher> {{ publication.publisher }} </publisher>
+
+{% endfor %}
+
+
 # Experience
 
 <ul>

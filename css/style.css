@@ -113,3 +113,16 @@ jobdesc{
     margin: 0.5em;
     color: #888;
 }
+
+pubtitle{
+}
+
+authors{
+    font-size: 0.6em;
+    width: 400px;
+}
+
+publisher{
+    font-size: 0.7em;
+    font-weight: 500;
+}

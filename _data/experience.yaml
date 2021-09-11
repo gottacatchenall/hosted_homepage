@@ -16,29 +16,32 @@
   what: Teaching Assistant
   where: University of Colorado Boulder
   when: 2019-2020
-  misc:
+  misc: |
+    Taught EBIO 1230 (fall) and EBIO 1240 (winter).
 - id: melbourne_lab
   what: Research Assistant
   where: University of Colorado Boulder, Melbourne Lab
   when: Summer 2018
-  misc:
+  misc: |
+    Various tasks for managing in-lab experiments, started writing a system to
+    automate humidifier activation. 
 - id: jpl3
   what: Software Engineering Intern
   where: NASA Jet Propulsion Laboratory
   when: Summer 2017
-  misc: wrote flight software for two <a>Cubesats</a>
+  misc: Wrote flight software for two <a>Cubesats</a>
 - id: la_cu
   what: Learning Assistant
   where: University of Colorado Boulder, Dept. of Applied Math
-  misc: Taught calc 1-3 in workgroups
+  misc: Taught workgroups for single a multivariable calculus (APPM 1350, 1360, 2360).
   when: 2016-2017
 - id: jpl2
   what: Systems Engineering Intern
   where: NASA Jet Propulsion Laboratory
   when: Summer 2016
-  misc: finished CMS for uplink software
+  misc: Finished CMS for uplink software
 - id: jpl1
   what: Systems Engineering Intern
   where: NASA Jet Propulsion Laboratory
   when: Summer 2015
-  misc: started CMS for uplink software
+  misc: Started writing CMS for uplink software
